@@ -13,16 +13,16 @@
 	<img class="logo" src="img/learner-link-logo.svg" alt="Mountain View">
 		<div class="form">
 			<form class="login-form">
-				<a class="o365login" href="https://learner.link/auth/oidc"><img src="img/o365login.svg" alt="Click here to login with Office 365"></a>
+				<a class="o365login" href="/auth/oidc"><img src="img/o365login.svg" alt="Click here to login with Office 365"></a>
 				<p class="message" style="margin-bottom: 15px;">Some features may allow you access as a guest.</p>
 			</form>
-						<form class="guest-form" action="https://learner.link/login/index.php" method="post" id="guestlogin">
+						<form class="guest-form" action="/login/index.php" method="post" id="guestlogin">
 				<input type="hidden" name="username" value="guest">
 				<input type="hidden" name="password" value="guest">
 				<button>Log in as a guest</button>
 				<p class="message">Having issues? <a href="#">Try this alternate login.</a></p>
 			</form>
-			<form class="alternate-form" action="https://learner.link/login/index.php" method="POST">
+			<form class="alternate-form" action="/login/index.php" method="POST">
 				<input type="text" name="username" id="username" placeholder="email address"/>
 				<input type="password" name="password" id="password" placeholder="password"/>
 				<button>login</button>
